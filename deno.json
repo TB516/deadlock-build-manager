@@ -1,0 +1,16 @@
+{
+  "nodeModulesDir": "auto",
+  "unstable": ["fmt-component"],
+  "desktop": {
+    "app": {
+      "name": "Deadlock Build Manager",
+      "identifier": "io.github.TB516.Deadlock-build-manager"
+    },
+    "backend": "cef",
+    "output": {
+      "linux": "./dist/linux",
+      "macos": "./dist/macos",
+      "windows": "./dist/windows"
+    }
+  }
+}
